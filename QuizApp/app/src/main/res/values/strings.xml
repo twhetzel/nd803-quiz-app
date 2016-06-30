@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Just Horsin\' Around</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="q1_question">What breed of horse pulls the Budweiser beer wagon?</string>
+    <string name="q1_correct_answer">Clydesdale</string>
+    <string name="hint">Add horse breed</string>
+
+    <string name="q2_question">When a horse gallops are all four hooves ever off the ground (select all that apply)?</string>
+    <string name="answer_zero">0</string>
+    <string name="answer_one">1</string>
+    <string name="answer_two">2</string>
+    <string name="answer_three">3</string>
+    <string name="answer_four">4</string>
+    <string name="answer_five">5</string>
+
+    <string name="q3_question">What is considered the oldest living horse breed?</string>
+    <string name="q3_answer_1">Arabian</string>
+    <string name="q3_answer_2">Przewalski\'s horse</string>
+    <string name="q3_answer_3">The Black Stallion</string>
+    <string name="q3_answer_4">Budweiser Clydesdale</string>
+    <string name="q3_answer_5">Secretariat</string>
+    <string name="q3_answer_6">Thoroughbred</string>
+
+    <string name="q4_question">The Trakehner was almost made extinct during World War I by destroying the city of Trakehnen?</string>
+    <string name="q4_true">True</string>
+    <string name="q4_false">False</string>
+
+    <string name="q5_question">How many races are part of the Triple Crown?</string>
+    <string name="q5_answer_1">2</string>
+    <string name="q5_answer_2">3</string>
+    <string name="q5_answer_3">4</string>
+</resources>
