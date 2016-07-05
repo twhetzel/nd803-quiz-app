@@ -149,20 +149,23 @@
 
                     <RadioButton
                         android:id="@+id/q3_radio_arabian"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
                         android:text="@string/q3_answer_1" />
 
                     <RadioButton
                         android:id="@+id/q3_radio_prez"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
                         android:text="@string/q3_answer_2" />
 
                     <RadioButton
                         android:id="@+id/q3_radio_clydesdale"
-                        android:layout_width="wrap_content"
-                        android:layout_height="46dp"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
                         android:text="@string/q3_answer_4" />
                 </RadioGroup>
             </LinearLayout>
@@ -213,13 +216,13 @@
                 android:orientation="vertical"
                 android:paddingLeft="16dp">
 
-                <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                <RadioGroup
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
                     <RadioButton
-                        android:id="@+id/radio_pirates"
+                        android:id="@+id/q5_two"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -228,7 +231,7 @@
                         android:text="@string/q5_answer_1" />
 
                     <RadioButton
-                        android:id="@+id/radio_ninjas"
+                        android:id="@+id/q5_three"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -237,7 +240,7 @@
                         android:text="@string/q5_answer_2" />
 
                     <RadioButton
-                        android:id="@+id/radio_ninjas"
+                        android:id="@+id/q5_four"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
