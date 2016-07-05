@@ -6,13 +6,13 @@
     <string name="q1_correct_answer">Clydesdale</string>
     <string name="hint">Add horse breed</string>
 
-    <string name="q2_question">When a horse gallops are all four hooves ever off the ground (select all that apply)?</string>
-    <string name="answer_zero">0</string>
-    <string name="answer_one">1</string>
-    <string name="answer_two">2</string>
-    <string name="answer_three">3</string>
-    <string name="answer_four">4</string>
-    <string name="answer_five">5</string>
+    <string name="q2_question">What are the races in the Triple Crown (select all that apply)?</string>
+    <string name="q2_answer_zero">Tennessee Stakes</string>
+    <string name="q2_answer_one">Kentucky Derby</string>
+    <string name="q2_answer_two">SoapBox Derby</string>
+    <string name="q2_answer_three">Preakness Stakes</string>
+    <string name="q2_answer_four">Belmont Stakes</string>
+    <string name="q2_answer_five">Belmont High Stakes Race</string>
 
     <string name="q3_question">What is considered the oldest living horse breed?</string>
     <string name="q3_answer_1">Arabian</string>
