@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public String getQuizResponses(View view) {
         // Get Answer 1 Response
-        EditText q1_answer = (EditText) findViewById(R.id.beer_wagon);
+        EditText q1_answer = (EditText) findViewById(R.id.q1_edit_text);
         String q1_answer_text = q1_answer.getText().toString().trim().toLowerCase();
         // Score Q1 Response
         checkAnswerQ1(q1_answer_text);
