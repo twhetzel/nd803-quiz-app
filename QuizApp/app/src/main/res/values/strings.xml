@@ -3,7 +3,7 @@
     <string name="action_settings">Settings</string>
 
     <string name="q1_question">What breed of horse pulls the Budweiser beer wagon?</string>
-    <string name="q1_correct_answer">Clydesdale</string>
+    <string name="q1_correct_answer">clydesdale</string>
     <string name="hint">Add horse breed</string>
 
     <string name="q2_question">What are the races in the Triple Crown (select all that apply)?</string>
