@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <LinearLayout
+        android:id="@+id/root_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -42,8 +43,9 @@
             android:hint="@string/hint"
             android:imeOptions="actionNext"
             android:inputType="text"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp" />
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:paddingLeft="8dp" />
 
         <TextView
             style="@style/TextViewStyle"
@@ -177,7 +179,6 @@
             android:layout_height="wrap_content"
             android:text="@string/q4_question" />
 
-
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -226,7 +227,6 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:onClick="onRadioButtonClicked"
                         android:paddingRight="16dp"
                         android:text="@string/q5_answer_1" />
 
@@ -235,7 +235,6 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:onClick="onRadioButtonClicked"
                         android:paddingRight="16dp"
                         android:text="@string/q5_answer_2" />
 
@@ -244,15 +243,11 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:onClick="onRadioButtonClicked"
                         android:paddingLeft="16dp"
                         android:paddingRight="16dp"
                         android:text="@string/q5_answer_3" />
                 </RadioGroup>
-
             </LinearLayout>
         </LinearLayout>
-
-
     </LinearLayout>
 </ScrollView>
