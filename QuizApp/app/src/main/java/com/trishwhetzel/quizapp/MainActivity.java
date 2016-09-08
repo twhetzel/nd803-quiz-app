@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     // Global variable to track scores for correct quiz responses
     int score = 0;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -120,11 +121,15 @@ public class MainActivity extends AppCompatActivity {
     public int checkAnswerQ2(CheckBox q2_answer_ten_stakes, CheckBox q2_answer_kentucky_derby,
                              CheckBox q2_answer_soapbox, CheckBox q2_answer_preakness,
                              CheckBox q2_answer_belmont, CheckBox q2_answer_belmont_fake) {
-
-        if ((q2_answer_ten_stakes.isChecked() == false) && q2_answer_kentucky_derby.isChecked() &&
-                (q2_answer_soapbox.isChecked() == false) && q2_answer_preakness.isChecked() &&
-                q2_answer_belmont.isChecked() && (q2_answer_belmont_fake.isChecked() == false)) {
-            score++;
+        
+        // Check for Required Answers
+        if (q2_answer_kentucky_derby.isChecked() && q2_answer_preakness.isChecked()
+                && q2_answer_belmont.isChecked() ) {
+            // Award Point only if incorrect CheckBoxes are unchecked
+            if (!q2_answer_ten_stakes.isChecked() && !q2_answer_soapbox.isChecked()
+                    && !q2_answer_belmont_fake.isChecked()) {
+                score = score + 1;
+            }
         }
         return score;
     }
@@ -216,8 +221,9 @@ public class MainActivity extends AppCompatActivity {
                     ((CheckBox) view).setChecked(false);
                 }
 
-                if (view instanceof ViewGroup && (((ViewGroup) view).getChildCount() > 0))
+                if (view instanceof ViewGroup && (((ViewGroup) view).getChildCount() > 0)) {
                     clearForm((ViewGroup) view);
+                }
             }
         }
     }
